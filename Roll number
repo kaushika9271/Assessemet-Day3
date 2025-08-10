@@ -1,0 +1,28 @@
+package Day3;
+
+import java.io.*;
+import java.util.*;
+
+public class Roll number {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int rollNumber = scanner.nextInt();
+
+        String result = "NO";
+
+        if (rollNumber % 44 == 0) result = "YES";
+        else if (rollNumber % 47 == 0) result = "YES";
+        else if (rollNumber % 74 == 0) result = "YES";
+        else if (rollNumber % 77 == 0) result = "YES";
+        else if (rollNumber % 444 == 0) result = "YES";
+        else if (rollNumber % 447 == 0) result = "YES";
+        else if (rollNumber % 474 == 0) result = "YES";
+        else if (rollNumber % 477 == 0) result = "YES";
+        else if (rollNumber % 744 == 0) result = "YES";
+        else if (rollNumber % 747 == 0) result = "YES";
+        else if (rollNumber % 774 == 0) result = "YES";
+        else if (rollNumber % 777 == 0) result = "YES";
+
+        System.out.println(result);
+    }
+}
